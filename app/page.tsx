@@ -24,7 +24,7 @@ export default function Page() {
 
             <Problem/>
 
-            {/*<Solution/>*/}
+            <Solution/>
 
             {/*<FeaturesAccordion/>*/}
 

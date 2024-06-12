@@ -11,44 +11,23 @@ import Image from "next/image";
 // - Features: "ShipFast has user auth, Stripe, emails all set up for you"
 const Solution = () => {
     return (
-        <section className="bg-circle-green mt-20">
+        <section className="bg-circle-green">
 
             {/*https://bitbo.io/how-many-bitcoin/*/}
             <div className="max-w-7xl mx-auto px-8 py-16 md:py-32 text-center">
-                <h2 className="max-w-3xl mx-auto font-extrabold text-7xl md:text-7xl tracking-tight mb-6 md:mb-8">
-                    <strong>Hibernate</strong> your BTC access, let your beloved ones inherit it.
+                <h2 className="max-w-3xl mx-auto font-extrabold text-5xl md:text-5xl tracking-tight mb-6 md:mb-8">
+                    Crypto Inheritance: Leave bitcoin to your family
                 </h2>
                 <p className="max-w-2xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
-                    Do not let your BTC to be next, plan your inheritance now.
+                    Let your BTC be inherited by your beloved ones, generation after generation.
                 </p>
 
                 <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">
-                    <div>
-                        <div className="d-flex-vert text-start font-bold">
-                            <div className="text-primary">
-                                <span className="text-7xl">100%</span>
-                                <br/>
-                                <small>to mine</small>
-                            </div>
-                            <div className="text-black">
-                                <span className="text-7xl">100%</span>
-                                <br/>
-                                <small>owned</small>
-                            </div>
-                            <div className="text-red">
-                                <span className="text-7xl">100%</span>
-                                <br/>
-                                <small>for ever lost</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="pyramid-no-willbtc"></div>
-                        <span>
-                        *Stats from <a href="https://bitbo.io/how-many-bitcoin/" target="_blank"
-                                       className="underline">Bitbo</a>
-                    </span>
-                    </div>
+                    <img
+                        src="/images/illustration-generational.png"
+                        width={1200}
+                        height={500}
+                        alt=""/>
                 </div>
             </div>
         </section>
