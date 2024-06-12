@@ -45,11 +45,11 @@ const Hero = () => {
 
 
             <div className="lg:w-full">
-                <Image
+                <img
                     src="/images/inheritance-2.png"
                     alt="Product Demo"
-                    className=""
-                    priority={true}
+                    className="w-full"
+                    style={{borderRadius: '1rem'}}
                     width={850}
                     height={850}
                 />
