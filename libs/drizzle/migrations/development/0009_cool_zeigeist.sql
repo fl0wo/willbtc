@@ -1,0 +1,1 @@
+ALTER TABLE bot ADD `gptModel` text DEFAULT 'gpt-4o';

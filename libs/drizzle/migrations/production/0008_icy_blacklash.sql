@@ -1,0 +1,1 @@
+ALTER TABLE user ADD `credits` integer DEFAULT (cast (0 as int));

@@ -1,0 +1,1 @@
+ALTER TABLE bot ADD `language` text;

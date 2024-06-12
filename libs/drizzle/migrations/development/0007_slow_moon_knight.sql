@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `bot_urlSlug_unique` ON `bot` (`urlSlug`);

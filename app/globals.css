@@ -1,0 +1,381 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* It makes the HTML progress bar filling smooth when value change. */
+progress::-webkit-progress-value {
+  transition: 0.6s width ease-out;
+}
+
+@layer base {
+  .btn-gradient {
+    @apply !bg-gradient !bg-[length:300%_300%] hover:saturate-[1.2] shadow duration-100 !border-0 !border-transparent !bg-transparent animate-shimmer disabled:!bg-none disabled:!bg-gray-500/30  !text-white;
+  }
+  .btn {
+    @apply !capitalize;
+  }
+}
+
+.bg-green {
+  background: rgba(0, 202, 155, 0.25);
+  color: #1F2937 !important;
+}
+
+.bg-red {
+  background: rgba(254, 192, 191, 0.25);
+  color: #1F2937 !important;
+}
+
+
+.highlight-text{
+    background: #560DF8;
+    color: white;
+}
+
+.highlight-text-20{
+    /*transparency 20*/
+    background: rgba(84, 15, 237, 0.22);
+    color: black;
+
+}
+
+.pt-0-forced{
+    padding-top: 0 !important;
+}
+
+.pt-1-forced{
+    padding-top: 1rem !important;
+}
+
+.pt-3-forced{
+    padding-top: 3rem !important;
+}
+
+.pb-3-forced{
+    padding-bottom: 3rem !important;
+}
+
+.pb-0-forced{
+    padding-bottom: 0 !important;
+}
+
+.scale-x-100{
+    transform: scale(10);
+}
+
+.arrow-class{
+    transform: scale(2) rotate(262deg);
+}
+
+.arrow-class-d{
+    transform: scale(2, -2) rotate(263deg);
+}
+
+.fried-text{
+    --_p: 100%;
+    color: var(--c);
+
+    --c: #FF6B81; /* the color */
+    --s: .15em;   /* control the size of the underline */
+
+    line-height: 1.1em;
+    padding-bottom: calc(2.1*var(--s));
+    background:
+            conic-gradient(from 135deg at top   ,var(--c) 90deg,#0000 0)
+            left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+            conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0)
+            bottom 0 left var(--s)/calc(2*var(--s)) var(--s) repeat-x;
+    --_m:
+            linear-gradient(#000 0 0) content-box,
+            linear-gradient(#000 0 0) 50%/var(--_p,0%) padding-box no-repeat;
+    -webkit-mask: var(--_m);
+    mask: var(--_m);
+}
+
+.vertical-line4{
+    line-height: 3rem !important;
+}
+
+.letter-spacing1{
+    line-height: 4rem !important;
+    letter-spacing: -.025em
+}
+
+.no-bg-img{
+    background-image: none !important;
+}
+
+.flo-happy-img{
+    width: 15rem;
+    transform: scaleX(-1) translate(-16rem, -12rem);
+    position: absolute;
+
+    @media(max-width: 768px){
+        visibility: hidden;
+    }
+}
+
+.flo-sad-img{
+    width: 12rem;
+    transform: translate(-8rem, -6rem);
+    position: absolute;
+
+    @media(max-width: 768px){
+        visibility: hidden;
+    }
+}
+
+.pricing-face-1{
+    width: 12rem;
+    transform: translate(-4rem, -8rem) scaleX(1) rotate(4deg);
+    position: absolute;
+    z-index: 100;
+
+    @media(max-width: 768px){
+        visibility: hidden;
+    }
+}
+
+.pricing-face-2{
+    /*width: 15rem;*/
+    /*transform: translate(52rem, -8rem) rotate(358deg) scaleX(1);*/
+    /*position: absolute;*/
+    /* right: 0; */
+
+    width: 35rem;
+    transform: translate(44rem, -8rem) rotate(358deg) scaleX(1);
+    position: absolute;
+    /* right: 0; */
+    z-index: 100;
+
+    @media(max-width: 768px){
+        visibility: hidden;
+    }
+}
+
+.bg-error-flo{
+    background: #FEC0BF !important;
+}
+
+.bg-success-flo{
+    background: #DDFFDC !important;
+}
+
+.bg-blue-color{
+    color: #00acee;
+}
+
+.red-color{
+    color: #FF6B81;
+}
+
+.text-red{
+    color: #FF6B81
+}
+
+.input-transparent{
+    border-radius: 0;
+    color: black;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.whitecheckbox{
+    border-width: 0;
+    border-color: transparent;
+    border-radius: 10rem !important;
+}
+
+.whitecheckbox:checked{
+    --chkbg: 10 1% 100%;
+    --chkfg: 259, 94%, 51%;
+    outline: none !important;
+    color: red !important;
+    background-color: blue !important;
+}
+
+.whiteselect{
+    border-radius: 10rem;
+    color: black;
+}
+
+.intensewhite{
+    color: white;
+}
+
+.white-40{
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.on-hover-link:hover{
+    text-decoration: underline;
+}
+
+.check-done-icon{
+    width: 2rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.d-flex-hor{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.radius-6{
+    border-radius: 1.5rem;
+}
+
+.width-100{
+    width: 100%;
+    height: 5rem;
+    border-radius: 1.5rem;
+}
+
+.height-100{
+    height: 100%;
+}
+
+.popup-diag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.d-flex-vert{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.yt-video-width{
+    width: 45rem;
+    height: 25rem;
+    @media (max-width: 1000px){
+        width: 100%;
+        height: 25rem;
+    }
+}
+
+.settings-block{
+    border-top-right-radius: 0;
+    margin-right: 3rem;
+    background: #F2F2F2;
+
+    @media (max-width: 1200px) {
+        margin-right: 0;
+    }
+}
+
+.steps .step[data-content]:after{
+    color: white !important;
+}
+
+.border-25rem{
+    border-radius: 2.5rem;
+}
+
+.z-1000{
+
+}
+
+.pb-10-important{
+    padding-bottom: 10px !important;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.step-animate-popup:hover::after {
+    animation: popup 0.25s ease-in-out;
+    z-index: 10; /* Ensure this is higher than other elements */
+    position: relative; /* Ensure the element is positioned */
+    will-change: transform; /* Use will-change for better performance */
+}
+
+.step-success-flo:after{
+    background-color:#1ECDBB !important;
+}
+
+.step-loading:after{
+    background-color: #000000 !important;
+}
+
+@keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.step-loading::after {
+    content: '';
+    box-sizing: border-box;
+    background: transparent;
+    animation: spinner .6s linear infinite;
+}
+
+.d-flex-hor-bottom{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.bg-circle-red{
+    background-image: url("/images/circle-red.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pyramid-no-willbtc {
+    width: 400px;
+    height: 250px;
+
+    background: linear-gradient(
+            to bottom,
+            #b3fca1 var(--to-mine),
+            white var(--to-mine),
+            white calc(var(--to-mine) + var(--owned)),
+            #ff6b81 calc(var(--to-mine) + var(--owned))
+    );
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}

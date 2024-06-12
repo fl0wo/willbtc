@@ -1,0 +1,118 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1715342941945,
+      "tag": "0000_bizarre_silhouette",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1715937606374,
+      "tag": "0001_illegal_red_hulk",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1716200920931,
+      "tag": "0002_bouncy_paper_doll",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1716282941245,
+      "tag": "0003_aspiring_dragon_lord",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1716294640855,
+      "tag": "0004_fancy_goliath",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1716295140756,
+      "tag": "0005_sturdy_carlie_cooper",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1716369874350,
+      "tag": "0006_yellow_kree",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1716401689256,
+      "tag": "0007_supreme_magneto",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1716471422144,
+      "tag": "0008_icy_blacklash",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1716471600296,
+      "tag": "0009_lumpy_lockheed",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1716471657588,
+      "tag": "0010_minor_lightspeed",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1716574560493,
+      "tag": "0011_flat_jackal",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "5",
+      "when": 1717062154726,
+      "tag": "0012_bumpy_mephistopheles",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "5",
+      "when": 1717071607709,
+      "tag": "0013_chief_hemingway",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "5",
+      "when": 1717254630925,
+      "tag": "0014_fat_the_liberteens",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "5",
+      "when": 1717258983593,
+      "tag": "0015_lonely_the_santerians",
+      "breakpoints": true
+    }
+  ]
+}

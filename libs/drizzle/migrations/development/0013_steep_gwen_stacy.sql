@@ -1,0 +1,2 @@
+ALTER TABLE workflow_step ADD `created_at` integer DEFAULT (cast (unixepoch () as int));--> statement-breakpoint
+ALTER TABLE workflow_step ADD `updated_at` integer DEFAULT (cast (unixepoch () as int));
