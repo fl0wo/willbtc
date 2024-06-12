@@ -1,3 +1,5 @@
+"use client";
+
 // Problem Agitation: A crucial, yet overlooked, component for a landing page that sells.
 // It goes under your Hero section, and above your Features section.
 // Your Hero section makes a promise to the customer: "Our product will help you achieve XYZ".

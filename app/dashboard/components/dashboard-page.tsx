@@ -1,10 +1,6 @@
 import React from "react";
-import {BlogStatCard} from "@/app/dashboard/components/blog-card";
 import {NavBar} from "@/app/dashboard/components/navBar";
-import {AddBlogButton} from "@/app/dashboard/components/add-blog-button";
-import {StripePricingTablePopUp} from "@/app/dashboard/components/stripe-pricing-table-pop-up";
 import {orThrow} from "@/app/utils";
-import {BotType} from "@/libs/drizzle/models/BotType";
 import {UserType} from "@/libs/drizzle/models/UserType";
 
 declare global {
@@ -17,7 +13,6 @@ declare global {
 
 export const DashboardPage = (props: {
     user: UserType,
-    bots: BotType[],
 }) => {
 
     const stripePricingTableId = orThrow(process.env.STRIPE_PRICING_TABLE_ID, 'Missing stripe pricing table id');

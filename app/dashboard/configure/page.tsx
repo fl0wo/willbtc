@@ -1,6 +1,5 @@
 import React from "react"
 import {NavBar} from "@/app/dashboard/components/navBar";
-import ConfigureForm from "@/app/components/configure-form";
 
 export default async function Configure() {
     return (
@@ -13,7 +12,6 @@ export default async function Configure() {
                     </h1>
                     <p className="text-base-content/80">
                     </p>
-                    <ConfigureForm/>
                 </section>
             </main>
         </div>

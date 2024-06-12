@@ -107,7 +107,7 @@ const Problem = () => {
                                 '--to-mine': `${toMinePercentage}%`,
                                 '--owned': `${ownedPercentage}%`,
                                 '--forever-lost': `${foreverLostPercentage}%`
-                            }}
+                            } as any}
                             className="pyramid-no-willbtc">
                         </div>
                         {!hasClicked && <span>*Stats from <a href="https://bitbo.io/how-many-bitcoin/" target="_blank" className="underline">Bitbo</a></span>}
